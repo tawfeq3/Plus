@@ -1,1 +1,8 @@
-
+{
+  "name": "Tawfiq Store",
+  "identifier": "com.tawfiq.plus.repo",
+  "iconURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/icons/store.png",
+  "website": "https://github.com/tawfeq3/Plus",
+  "apps": [],
+  "news": []
+}
