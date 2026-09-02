@@ -1,23 +1,37 @@
 {
-"name": "Tawfiq Store",
-"identifier": "com.tawfeq.plus.esign",
-"sourceURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/app.json",
-"apps": [
-{
-"name": "Feather",
-"bundleIdentifier": "thewonderofyou.Feather",
-"developerName": "Feather",
-"version": "2.8.2",
-"versionDate": "2026-09-02T00:00:00+03:00",
-"versionDescription": "Feather 2.8.2 - Build 12",
-"downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/Feather.ipa",
-"localizedDescription": "Feather IPA",
-"iconURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/icons/feather.png",
-"tintColor": "5865F2",
-"isLanZouCloud": 0,
-"size": 14931763,
-"type": 1
+  "name": "Tawfiq Store",
+  "identifier": "com.tawfeq.plus.esign",
+  "sourceURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/app.json",
+  "apps": [
+    {
+      "name": "Feather",
+      "bundleIdentifier": "thewonderofyou.Feather",
+      "developerName": "Feather",
+      "version": "2.8.2",
+      "versionDate": "2026-09-02T00:00:00+03:00",
+      "versionDescription": "Feather 2.8.2 - Build 12",
+      "downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/Feather.ipa",
+      "localizedDescription": "Feather IPA",
+      "iconURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/icons/feather.png",
+      "tintColor": "5865F2",
+      "isLanZouCloud": 0,
+      "size": 14931763,
+      "type": 1
+    },
+    {
+      "name": "HUDURI",
+      "bundleIdentifier": "com.t2.AvailoHader",
+      "developerName": "Tawfiq Store",
+      "version": "8.3",
+      "versionDate": "2026-09-02T00:00:00+03:00",
+      "versionDescription": "HUDURI 8.3 - Build 8.4",
+      "downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/hud.ipa",
+      "localizedDescription": "HUDURI",
+      "iconURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/icons/hud.png",
+      "tintColor": "5865F2",
+      "isLanZouCloud": 0,
+      "size": 16043213,
+      "type": 1
+    }
+  ]
 }
-]
-}
-
