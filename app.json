@@ -1,27 +1,23 @@
 {
-  "name": "Tawfiq Store",
-  "identifier": "com.tawfeq.plus.repo",
-  "iconURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/icons/store.png",
-  "website": "https://github.com/tawfeq3/Plus",
-  "apps": [
-    {
-      "name": "Feather",
-      "bundleIdentifier": "thewonderofyou.Feather",
-      "developerName": "Feather",
-      "subtitle": "Feather 2.8.2",
-      "localizedDescription": "Feather IPA",
-      "iconURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/icons/feather.png"
-      "version": "2.8.2",
-      "versionDate": "2026-09-02T00:00:00Z",
-      "downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/Feather.ipa",
-      "versions": [
-        {
-          "version": "2.8.2",
-          "buildVersion": "12",
-          "date": "2026-09-02T00:00:00Z",
-          "downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/Feather.ipa"
-        }
-      ]
-    }
-  ]
+"name": "Tawfiq Store",
+"identifier": "com.tawfeq.plus.esign",
+"sourceURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/app.json",
+"apps": [
+{
+"name": "Feather",
+"bundleIdentifier": "thewonderofyou.Feather",
+"developerName": "Feather",
+"version": "2.8.2",
+"versionDate": "2026-09-02T00:00:00+03:00",
+"versionDescription": "Feather 2.8.2 - Build 12",
+"downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/Feather.ipa",
+"localizedDescription": "Feather IPA",
+"iconURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/icons/feather.png",
+"tintColor": "5865F2",
+"isLanZouCloud": 0,
+"size": 14931763,
+"type": 1
 }
+]
+}
+
