@@ -8,7 +8,18 @@ from pathlib import Path
 REPO = os.environ.get("GITHUB_REPOSITORY", "tawfeq3/Plus")
 BRANCH = "main"
 APPS_DIR = Path("apps")
+ICONS_DIR = Path("icons")
+ICON_EXTENSIONS = [".png", ".jpg", ".jpeg", ".webp"]
 APPJSON = Path("app.json")
+
+
+def find_icon_url(ipa_path):
+    """Look for icons/<same-name-as-ipa>.<ext> and return its raw GitHub URL if found."""
+    for ext in ICON_EXTENSIONS:
+        icon_path = ICONS_DIR / f"{ipa_path.stem}{ext}"
+        if icon_path.exists():
+            return f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/icons/{icon_path.name}"
+    return ""
 
 
 def read_ipa_info(ipa_path):
@@ -61,6 +72,8 @@ def main():
             "minOSVersion": info["minOSVersion"],
         }
 
+        icon_url = find_icon_url(ipa_path)
+
         if bundle_id in by_bundle:
             app = by_bundle[bundle_id]
             versions = app.setdefault("versions", [])
@@ -68,6 +81,8 @@ def main():
                 versions[0] = version_entry
             else:
                 versions.insert(0, version_entry)
+            if not app.get("iconURL") and icon_url:
+                app["iconURL"] = icon_url
             print(f"Updated {app.get('name')} -> {info['version']}")
         else:
             new_app = {
@@ -77,7 +92,7 @@ def main():
                 "developerName": "",
                 "subtitle": "",
                 "localizedDescription": info["name"],
-                "iconURL": "",
+                "iconURL": icon_url,
                 "tintColor": "#5865F2",
                 "category": "other",
                 "screenshots": [],
