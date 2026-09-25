@@ -104,4 +104,4 @@ def main():
 
             app = by_bundle[bundle_id]
 
-            versions = app.setdefault
+            versions = app.setdefault("versions", [])
