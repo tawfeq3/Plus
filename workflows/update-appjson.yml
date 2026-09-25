@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'apps/*.ipa'
+      - 'icons/*'
   workflow_dispatch:
 
 jobs:
