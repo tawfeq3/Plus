@@ -54,6 +54,34 @@
           "minOSVersion": "10.0"
         }
       ]
+    },
+    {
+      "name": "Portal",
+      "bundleIdentifier": "com.wsfteam.portal",
+      "marketplaceID": "",
+      "developerName": "",
+      "subtitle": "",
+      "localizedDescription": "Portal",
+      "iconURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/icons/portal.png",
+      "tintColor": "#5865F2",
+      "category": "other",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0.1",
+          "date": "2026-09-25T00:00:00+03:00",
+          "localizedDescription": "New release!",
+          "downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/portal.ipa",
+          "size": 15598452,
+          "buildVersion": "7af8df0a5d0bece924ccd729aec46eed6b782a05",
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "patreon": {}
     }
   ]
 }
