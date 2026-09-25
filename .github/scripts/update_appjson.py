@@ -10,12 +10,12 @@ BRANCH = "main"
 
 APPS_DIR = Path("apps")
 ICONS_DIR = Path("icons")
-ICON_EXTENSIONS = [".png", ".jpg", ".jpeg", ".webp"]
 APPJSON = Path("app.json")
+
+ICON_EXTENSIONS = [".png", ".jpg", ".jpeg", ".webp"]
 
 
 def find_icon_url(ipa_path):
-    """Find an icon with the same filename as the IPA."""
     for ext in ICON_EXTENSIONS:
         icon_path = ICONS_DIR / f"{ipa_path.stem}{ext}"
 
@@ -29,15 +29,12 @@ def find_icon_url(ipa_path):
 
 
 def read_ipa_info(ipa_path):
-    """Read application information from Info.plist inside the IPA."""
     with zipfile.ZipFile(ipa_path) as z:
         plist_name = next(
-            n for n in z.namelist()
-            if (
-                n.startswith("Payload/")
-                and n.endswith(".app/Info.plist")
-                and n.count("/") == 2
-            )
+            name
+            for name in z.namelist()
+            if name.startswith("Payload/")
+            and name.endswith(".app/Info.plist")
         )
 
         with z.open(plist_name) as f:
@@ -51,8 +48,8 @@ def read_ipa_info(ipa_path):
             or ipa_path.stem
         ),
         "version": plist.get("CFBundleShortVersionString", "1.0"),
-        "buildVersion": plist.get("CFBundleVersion"),
-        "minOSVersion": plist.get("MinimumOSVersion"),
+        "buildVersion": plist.get("CFBundleVersion", ""),
+        "minOSVersion": plist.get("MinimumOSVersion", ""),
     }
 
 
@@ -73,15 +70,14 @@ def main():
 
         try:
             info = read_ipa_info(ipa_path)
-
-        except (StopIteration, zipfile.BadZipFile, KeyError) as e:
-            print(f"Skipping {ipa_path}: cannot read IPA ({e})")
+        except Exception as e:
+            print(f"Skipping {ipa_path}: {e}")
             continue
 
         bundle_id = info["bundleIdentifier"]
 
         if not bundle_id:
-            print(f"Skipping {ipa_path}: no bundle identifier found")
+            print(f"Skipping {ipa_path}: bundle identifier missing")
             continue
 
         size = ipa_path.stat().st_size
@@ -93,7 +89,6 @@ def main():
 
         icon_url = find_icon_url(ipa_path)
 
-        # Version entry
         version_entry = {
             "version": info["version"],
             "date": today,
@@ -104,30 +99,9 @@ def main():
             "minOSVersion": info["minOSVersion"],
         }
 
-        # ---------------------------------------------------------
-        # Existing application
-        # ---------------------------------------------------------
-
+        # تحديث تطبيق موجود
         if bundle_id in by_bundle:
 
             app = by_bundle[bundle_id]
 
-            versions = app.setdefault("versions", [])
-
-            # Update existing version or insert new version
-            existing_index = next(
-                (
-                    i
-                    for i, version in enumerate(versions)
-                    if version.get("version") == info["version"]
-                ),
-                None,
-            )
-
-            if existing_index is not None:
-                versions[existing_index] = version_entry
-            else:
-                versions.insert(0, version_entry)
-
-            # Update main application information too
-            app["
+            versions = app.setdefault
