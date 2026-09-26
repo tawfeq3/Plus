@@ -4,32 +4,6 @@
   "sourceURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/app.json",
   "apps": [
     {
-      "name": "Feather",
-      "bundleIdentifier": "thewonderofyou.Feather",
-      "developerName": "Feather",
-      "version": "2.9.0",
-      "versionDate": "2026-09-26T00:00:00+03:00",
-      "versionDescription": "New release!",
-      "downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/Feather.ipa",
-      "localizedDescription": "Feather IPA",
-      "iconURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/icons/feather.png",
-      "tintColor": "5865F2",
-      "isLanZouCloud": 0,
-      "size": 14241853,
-      "type": 1,
-      "versions": [
-        {
-          "version": "2.9.0",
-          "date": "2026-09-26T00:00:00+03:00",
-          "localizedDescription": "New release!",
-          "downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/Feather.ipa",
-          "size": 14241853,
-          "buildVersion": "1",
-          "minOSVersion": "16.0"
-        }
-      ]
-    },
-    {
       "name": "HUDURI",
       "bundleIdentifier": "com.t2.AvailoHader",
       "developerName": "Plus Store",
