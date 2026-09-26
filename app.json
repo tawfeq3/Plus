@@ -1,127 +1,113 @@
+
+
+
 {
-  "name": "Plus Store",
-  "identifier": "com.plus.esign",
-  "sourceURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/app.json",
-  "apps": [
-    {
-      "name": "Feather",
-      "bundleIdentifier": "thewonderofyou.Feather",
-      "developerName": "Feather",
-      "version": "2.9.0",
-      "versionDate": "2026-09-25T00:00:00+03:00",
-      "versionDescription": "New release!",
-      "downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/Feather.ipa",
-      "localizedDescription": "Feather IPA",
-      "iconURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/icons/feather.png",
-      "tintColor": "5865F2",
-      "isLanZouCloud": 0,
-      "size": 14241853,
-      "type": 1,
-      "versions": [
-        {
-          "version": "2.9.0",
-          "date": "2026-09-25T00:00:00+03:00",
-          "localizedDescription": "New release!",
-          "downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/Feather.ipa",
-          "size": 14241853,
-          "buildVersion": "1",
-          "minOSVersion": "16.0"
-        }
-      ]
-    },
-    {
-      "name": "HUDURI",
-      "bundleIdentifier": "com.t2.AvailoHader",
-      "developerName": "Plus Store",
-      "version": "8.3",
-      "versionDate": "2026-09-25T00:00:00+03:00",
-      "versionDescription": "New release!",
-      "downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/hud.ipa",
-      "localizedDescription": "HUDURI",
-      "iconURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/icons/hud.png",
-      "tintColor": "5865F2",
-      "isLanZouCloud": 0,
-      "size": 16077032,
-      "type": 1,
-      "versions": [
-        {
-          "version": "8.3",
-          "date": "2026-09-25T00:00:00+03:00",
-          "localizedDescription": "New release!",
-          "downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/hud.ipa",
-          "size": 16077032,
-          "buildVersion": "8.4",
-          "minOSVersion": "10.0"
-        }
-      ]
-    },
-    {
-      "name": "Portal",
-      "bundleIdentifier": "com.wsfteam.portal",
-      "marketplaceID": "",
-      "developerName": "",
-      "subtitle": "",
-      "localizedDescription": "Portal",
-      "iconURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/icons/portal.png",
-      "tintColor": "#5865F2",
-      "category": "other",
-      "screenshots": [],
-      "versions": [
-        {
-          "version": "1.0.1",
-          "date": "2026-09-25T00:00:00+03:00",
-          "localizedDescription": "New release!",
-          "downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/portal.ipa",
-          "size": 15598452,
-          "buildVersion": "7af8df0a5d0bece924ccd729aec46eed6b782a05",
-          "minOSVersion": "16.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      },
-      "patreon": {},
-      "version": "1.0.1",
-      "versionDate": "2026-09-25T00:00:00+03:00",
-      "versionDescription": "New release!",
-      "downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/portal.ipa",
-      "size": 15598452,
-      "type": 1
-    },
-    {
-      "name": "ForgeSign",
-      "bundleIdentifier": "com.forgesign.mobile",
-      "marketplaceID": "",
-      "developerName": "",
-      "subtitle": "",
-      "version": "2.4",
-      "versionDate": "2026-09-25T00:00:00+03:00",
-      "versionDescription": "New release!",
-      "downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/ForgeSign-2.4.ipa",
-      "localizedDescription": "ForgeSign",
-      "iconURL": "",
-      "tintColor": "#5865F2",
-      "size": 2699487,
-      "type": 1,
-      "category": "other",
-      "screenshots": [],
-      "versions": [
-        {
-          "version": "2.4",
-          "date": "2026-09-25T00:00:00+03:00",
-          "localizedDescription": "New release!",
-          "downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/ForgeSign-2.4.ipa",
-          "size": 2699487,
-          "buildVersion": "16",
-          "minOSVersion": "16.0"
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [],
-        "privacy": {}
-      },
-      "patreon": {}
-    }
-  ]
+
+
+"name": "Plus Store",
+
+
+"identifier": "com.plus.esign",
+
+
+"sourceURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/app.json",
+
+
+"apps": [
+
+
+{
+
+
+"name": "Feather",
+
+
+"bundleIdentifier": "thewonderofyou.Feather",
+
+
+"developerName": "Feather",
+
+
+"version": "2.8.2",
+
+
+"versionDate": "2026-01-02T00:00:00+03:00",
+
+
+"versionDescription": "Feather 2.8.2 ",
+
+
+"downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/Feather.ipa",
+
+
+"localizedDescription": "Feather IPA",
+
+
+"iconURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/icons/feather.png",
+
+
+"tintColor": "5865F2",
+
+
+"isLanZouCloud": 0,
+
+
+"size": 14931763,
+
+
+"type": 1
+
+
+},
+
+
+{
+
+
+"name": "HUDURI",
+
+
+"bundleIdentifier": "com.t2.AvailoHader",
+
+
+"developerName": "Plus Store",
+
+
+"version": "8.3",
+
+
+"versionDate": "2026-01-14T00:00:00+03:00",
+
+
+"versionDescription": "HUDURI 8.3 ",
+
+
+"downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/hud.ipa",
+
+
+"localizedDescription": "HUDURI",
+
+
+"iconURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/icons/hud.png",
+
+
+"tintColor": "5865F2",
+
+
+"isLanZouCloud": 0,
+
+
+"size": 16043213,
+
+
+"type": 1
+
+
 }
+
+
+]
+
+
+}
+
