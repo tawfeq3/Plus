@@ -15,7 +15,7 @@
       "iconURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/icons/hud.png",
       "tintColor": "5865F2",
       "isLanZouCloud": 0,
-      "size": 16077032,
+      "size": 16002397,
       "type": 1,
       "versions": [
         {
@@ -23,7 +23,7 @@
           "date": "2026-09-28T00:00:00+03:00",
           "localizedDescription": "New release!",
           "downloadURL": "https://github.com/tawfeq3/Plus/raw/refs/heads/main/apps/hud.ipa",
-          "size": 16077032,
+          "size": 16002397,
           "buildVersion": "8.4",
           "minOSVersion": "10.0"
         }
