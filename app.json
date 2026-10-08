@@ -1,73 +1,70 @@
 
 
+
 {
 
+
 "name": "Plus Store",
+
 "subtitle": "",
+
 "description": "متجر بلس لآدوات تغيير الموقع",
+
 "iconURL": "https://i.imgur.com/2je6fH0.png",
+
 "sourceURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/app.json",
+
 
 "apps": [
 
-{
-
-"name": "HUDURI",
-
-"bundleIdentifier": "com.t2.AvailoHader",
-
-"developerName": "Plus Store",
-
-"version": "8.3",
-
-"versionDate": "2026-01-14T00:00:00+03:00",
-
-"downloadURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/apps/hud.ipa",
-
-"localizedDescription": "حضوري مع أداة تغيير الموقع ",
-
-"iconURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/icons/hud.png",
-
-"tintColor": "5865F2",
-
-"isLanZouCloud": 0,
-
-"size": 16043213,
-
-"type": 1
-
-}
 
 ,
 
+
 {
+
 
 "name": "HUDURI",
 
+
 "bundleIdentifier": "com.t2.AvailoHader",
+
 
 "developerName": "Plus Store",
 
+
 "version": "8.3",
+
 
 "versionDate": "2026-01-14T00:00:00+03:00",
 
+
 "downloadURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/apps/hud2.ipa",
 
-"localizedDescription": "حضوري مع أداة تغيير الموقع ",
+
+"localizedDescription": "حضوري مع أداة تغيير الموقع اضغط ب 3 اصابع 10 ثواني لتفعيل الأداة ",
+
 
 "iconURL": "https://raw.githubusercontent.com/tawfeq3/Plus/main/icons/hud.png",
 
+
 "tintColor": "5865F2",
+
 
 "isLanZouCloud": 0,
 
+
 "size": 16043213,
+
 
 "type": 1
 
+
 }
+
 
 ]
 
+
 }
+
